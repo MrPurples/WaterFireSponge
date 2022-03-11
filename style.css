@@ -1,18 +1,20 @@
+
+
 body {
   background-color: blueviolet;
 }
 
 /* The Modal (background) */
 .modal {
-  display: block; /*nu uita sa il pui block */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: block; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: blueviolet; /* Fallback color */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #8a2be2; 
 }
 
 /* Modal Content/Box */
@@ -20,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 20% auto; /* 15% from the top and centered */
   padding: 20px;
   justify-content: center;
   width: 80%; /* Could be more or less, depending on screen size */
@@ -28,8 +30,8 @@ body {
 
 /* text label name */
 .labelName {
-  font-size: 1.2rem;
-  color: aliceblue;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
   display: flex; 
 }
 
@@ -39,7 +41,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: 100ms;
   padding: 15px;
 }
@@ -49,17 +51,6 @@ body {
 }
 /* End Modal */
 
-
-
-/* .results {
-  margin-top: 1rem;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  font-size: 2.2rem;
-} */
 
 .options {
   display: inline-flex;  
@@ -121,6 +112,7 @@ body {
   align-items: center;
   justify-items: center;
   font-size: 3rem;
+  height: 70vh;
 }
 
 .displayedOption {
@@ -133,6 +125,7 @@ body {
   color: aliceblue;
   display: flex;
   justify-content: center;
+  visibility:hidden
 }
 
 /* INFO BUTTON */
@@ -178,4 +171,5 @@ body {
   border: none;
   outline:none;
   font-size: 2.5rem;
+  padding: 20px;
 }
