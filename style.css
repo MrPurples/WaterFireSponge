@@ -22,10 +22,10 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 20% auto; /* 15% from the top and centered */
+  margin: 20% auto; 
   padding: 20px;
   justify-content: center;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 /* text label name */
