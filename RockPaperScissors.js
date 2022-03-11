@@ -75,6 +75,7 @@ const getComputerChoice = () => {
 
 const determineTheWinner = (playerChoice, computerChoice) => {
   const displayResult = document.getElementById('result')
+  setTimeout(() => {displayResult.style.visibility = 'visible'}, 920)
   if (playerChoice === computerChoice) {
     setTimeout(() => {displayResult.innerHTML='It is a TIE'}, 900)
     return 'Its a tie';
@@ -124,7 +125,7 @@ const resetButton = () => {
   document.getElementById('fire').disabled = false;
   document.getElementById('sponge').disabled = false;
   document.getElementById('bomb').disabled = false;
-  document.getElementById('result').innerHTML='';
+  document.getElementById('result').style.visibility = 'hidden';
   document.getElementById('playerChoice').innerHTML= '❔';
   document.getElementById('computerChoice').innerHTML= '❔';
 }
