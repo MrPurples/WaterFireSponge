@@ -20,8 +20,6 @@ usernameInput?.addEventListener('keyup', (event) => {
   }
 })
 
-
-
 //CORE GAME CODE
 let playerWINS = 0;
 let computerWINS = 0;
@@ -75,7 +73,7 @@ const getComputerChoice = () => {
 
 const determineTheWinner = (playerChoice, computerChoice) => {
   const displayResult = document.getElementById('result')
-  setTimeout(() => {displayResult.style.visibility = 'visible'}, 920)
+  setTimeout(() => {displayResult.style.visibility = 'visible'}, 900)
   if (playerChoice === computerChoice) {
     setTimeout(() => {displayResult.innerHTML='It is a TIE'}, 900)
     return 'Its a tie';
