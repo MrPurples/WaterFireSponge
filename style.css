@@ -84,10 +84,13 @@ body {
     background: linear-gradient(45deg, transparent 5%, #07ba9b 5%);
     color: rgb(255, 255, 255);
     letter-spacing: 3px;
+    box-shadow: 3px 0px 0px #06a78c;
     outline: transparent;
+    position: relative;
     cursor: pointer;
     border: 0;
     border-radius: 50em;
+    text-align: center;
   }
   
   .reset::after {
@@ -300,6 +303,7 @@ body {
     font-family: serif;
     width: 100px;
     height: 30px;
+    cursor: pointer;
   }
   
   #result {
