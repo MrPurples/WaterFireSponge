@@ -1,4 +1,4 @@
-# WaterFireSponge (Desktop Version) v1
+# WaterFireSponge v2  (Mobile version added)
 Rock Paper Scissors but with Water Fire and Sponge 
 
 How to play:
@@ -14,3 +14,6 @@ What i will do to improve it:
 - I will redesign some of elemets
 - Mobile version
 - Maybe a PVP MODE !
+
+
+Update V2 : -Mobile compatibility and some redesign 
