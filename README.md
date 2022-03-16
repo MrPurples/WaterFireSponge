@@ -1,4 +1,4 @@
-# WaterFireSponge v2  (Mobile version added)
+# WaterFireSponge v2
 Rock Paper Scissors but with Water Fire and Sponge 
 
 How to play:
@@ -16,4 +16,4 @@ What i will do to improve it:
 - Maybe a PVP MODE !
 
 
-Update V2 : -Mobile compatibility and some redesign 
+Update v2 : -Mobile compatibility and some redesign 
